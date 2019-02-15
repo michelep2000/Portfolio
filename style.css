@@ -1,14 +1,33 @@
 body{
-  background: #252a34;
-}
-.container{
-  background: #ff9a00;
-  border-radius: 5px;
+  background:url(img/img3.jpg)center fixed no-repeat;
 }
 .navbar-toggler{
   border: 0px;
 }
-
 p,h1,h2,a{
-  color: #f6f7d7;
+  font-weight:bold;
+  color: black;
+}
+
+.bg-color{
+  background-color: rgb(0,0,0);
+  opacity: 0.5;
+}
+img{
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.2);
+
+}
+mark{
+  background-color: rgb(255,255,255);
+  opacity: 0.5;
+  border-radius: 15px;
+}
+
+.b{
+  background-color: rgb(255,255,255);
+  opacity: 0.5;
+  border-radius: 15px;
+  box-shadow: white;
 }
