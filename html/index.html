@@ -12,7 +12,7 @@
 </head>
 <body>
   <section class="section sec-master">
-    <nav class="navbar navbar-expand-md navbar-dark navbar-center navbar-reverse fixed-top bg-color">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-center navbar-reverse fixed-top bg-color">
       <div class="container container1">
         <a href="#" class="navbar-brand ml-2">switch(menu)</a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav">
@@ -20,10 +20,10 @@
         </button>
         <div class=" collapse navbar-collapse" id="nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#aboutMe">case "About Me":</a></li>
-            <li class="nav-item"><a class="nav-link" href="#skills">case "Skills":</a></li>
-            <li class="nav-item"><a class="nav-link" href="#projects">case "Projects":</a></li>
-            <li class="nav-item"><a class="nav-link" href="contactMe.html">case "Contact Me":</a></li>
+            <li class="nav-item"><a class="nav-link" href="#aboutMe">case "Sobre Mi":</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">case "Destrezas":</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">case "Projectos":</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contactMe">case "Contactame":</a></li>
           </ul>
         </div>
       </div>
@@ -32,17 +32,17 @@
       <div class="container container2 mt-5">
         <div class="row">
           <div class="col-12">
-            <h1 class="display-4 text-center text-light mt-5">About <mark>Me</mark></h1>
+            <h1 class="display-4 text-center text-light mt-5">Sobre <mark>Mi</mark></h1>
           </div>
         </div>
       </div>
       <hr class="mx-5">
 
-      <div class="block mx-4 my-2">
-        <div class="row text-center ">
+      <div class="container block mx-4 my-2">
+        <div class="row text-center">
           <div class="b col-12 col-md-6">
-            <h2>hola</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="lead">Hola me llamo michele pardo, tengo 18 años, naci en Valencia, Venezuela, vivo en Madrid, España y estudio en la u-tad desarrollo de aplicaciones mutiplataforma, estoy apenas empezando en el mundo del software.</p>
+
           </div>
           <div class=" polaroid col-12 my-2 col-md-6 my-md-auto ">
             <img  src="../img/img10.png" alt="img4">
@@ -50,18 +50,15 @@
         </div>
       </div>
       <div class="block mx-4 my-2">
-        <div class="row text-center ">
-          <div class=" b col-8">
+        <div class="row text-center">
+          <div class=" b col-12">
             <h2>hola</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="dropdown col-3">
-            <a href="#" class="btn btn-secondary dropdown-toggle" role="button" id="dropXp" data-toggle= "dropdown" aria-haspopup="true" aria-expanded= "true">Experiencias-Viajes</a>
-            <div class="dropdown-menu">
-              <a href="#" class="dropdown-item">Experiencia 1</a>
-              <a href="#" class="dropdown-item">Experiencia 2</a>
-              <a href="#" class="dropdown-item">Experiencia 3</a>
-              <a href="#" class="dropdown-item">Experiencia 4</a>
+            <p class="lead">Informacion sobre mis experiencias</p>
+            <div class="dropdown col-12">
+              <a href="#" type="button"class="btn btn-light dropdown-toggle mb-2" role="button" id="dropXp" data-toggle= "dropdown" aria-haspopup="true" aria-expanded= "true">Echa un vistazo</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">4YFN y MWC</a>
+              </div>
             </div>
           </div>
         </div>
@@ -70,13 +67,14 @@
 
     <!-- skils -->
     <section class="section sec-2" id="skills">
-      <div class="container container2 mt-5">
+      <div class="container container2">
         <div class="row">
           <div class="col-12">
-            <h1 class="display-4 text-center text-light mt-5">Skills</h1>
+            <h1 class="display-4 text-center text-light mt-5">Destrezas</h1>
           </div>
         </div>
       </div>
+      <hr>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -87,7 +85,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active" data-toggle="modal" data-target="#Modal1">
-            <img class="d-block w-100" src="../img/img6.png" alt="First slide">
+            <img class="d-md-block w-100" src="../img/img6.png" alt="First slide">
           </div>
           <div class="carousel-item" data-toggle="modal" data-target="#Modal2">
             <img class="d-block w-100" src="../img/img5.png" alt="Second slide">
@@ -204,8 +202,49 @@
       <div class="container container2 mt-5">
         <div class="row">
           <div class="col-12">
-            <h1 class="display-4 text-center text-light mt-5">About <mark>Me</mark></h1>
+            <h1 class="display-4 text-center text-light mt-5"><mark>Pro</mark> jectos</h1>
           </div>
+        </div>
+      </div>
+      <hr>
+      <div class="block mx-4 my-2">
+        <div class="row text-center ">
+          <div class="b col-12">
+            <h2>Proximamente...</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="section sec-4" id="contactMe">
+      <div class="container container2 mt-5">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-4 text-center text-light mt-5">Contacta<mark>me</mark></h1>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="contact container">
+        <div class="row justify-content-center mt-5">
+          <!-- <div class="col-12"> -->
+            <form class="card">
+              <div class="card-body">
+                <div class="form-group">
+                  <input type="text" placeholder="Name" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="Email" class="form-control">
+                </div>
+                <div class="form-group ">
+                  <textarea rows="10" cols="100" placeholder="Message" class="form-control"></textarea>
+                </div>
+                <button name="btn btn-outline-dark" class="btn-block">Send</button>
+              </div>
+            </form>
+          <!-- </div> -->
         </div>
       </div>
     </section>
@@ -215,19 +254,19 @@
         <div class="container">
           <div class="row">
             <div class="footer-col col-md-4">
-              <h3>Location</h3>
+              <h3>Localidad</h3>
               <p class="text-light">Las Rozas de Madrid,<br>Centro de Tecnologia<br>Y Arte Digital "U-Tad"</p>
             </div>
             <div class="footer-col col-md-4">
-              <h3>Around the Web</h3>
+              <h3>Sigueme</h3>
               <ul class="list-inline">
                 <a href="https://github.com/michelep2000"><img src= "../img/github.png" class="imgs-footer mr-5"></a>
                 <a href="https://www.linkedin.com/in/michelepardo/"><img src="../img/linkedin.png" class="imgs-footer"></a>
               </ul>
             </div>
             <div class="footer-col col-md-4">
-              <h3>Blablablablabla</h3>
-              <p class="text-light">Mas blablablabla.</p>
+              <h3>Contacto</h3>
+              <p class="text-light">miguelalfonsopardo@gmail.com<br>michele.pardo@live.u-tad.com<br>+34653503601</p>
             </div>
           </div>
         </div>
@@ -243,12 +282,6 @@
       </div>
     </footer>
   </section>
-
-
-
-
-
-
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
