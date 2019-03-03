@@ -20,15 +20,15 @@
         </button>
         <div class=" collapse navbar-collapse" id="nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#">case "About Me":</a></li>
+            <li class="nav-item"><a class="nav-link" href="#aboutMe">case "About Me":</a></li>
             <li class="nav-item"><a class="nav-link" href="#skills">case "Skills":</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">case "Projects":</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">case "Projects":</a></li>
             <li class="nav-item"><a class="nav-link" href="contactMe.html">case "Contact Me":</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <section class="section sec-1">
+    <section class="section sec-1" id="aboutMe">
       <div class="container container2 mt-5">
         <div class="row">
           <div class="col-12">
@@ -55,7 +55,7 @@
             <h2>hola</h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
-          <div class="dropdown col-4">
+          <div class="dropdown col-3">
             <a href="#" class="btn btn-secondary dropdown-toggle" role="button" id="dropXp" data-toggle= "dropdown" aria-haspopup="true" aria-expanded= "true">Experiencias-Viajes</a>
             <div class="dropdown-menu">
               <a href="#" class="dropdown-item">Experiencia 1</a>
@@ -86,19 +86,19 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active" data-toggle="modal" data-target="#Modal1">
             <img class="d-block w-100" src="../img/img6.png" alt="First slide">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-toggle="modal" data-target="#Modal2">
             <img class="d-block w-100" src="../img/img5.png" alt="Second slide">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-toggle="modal" data-target="#Modal3">
             <img class="d-block w-100" src="../img/img8.png" alt="Second slide">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-toggle="modal" data-target="#Modal4">
             <img class="d-block w-100" src="../img/img9.png" alt="Second slide">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-toggle="modal" data-target="#Modal5">
             <img class="d-block w-100" src="../img/img7.png" alt="Third slide">
           </div>
         </div>
@@ -110,6 +110,103 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+      </div>
+
+      <!-- Modal1 -->
+      <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal2 -->
+      <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Hello
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal3 -->
+      <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal4 -->
+      <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal5 -->
+      <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+
+    <section class="section sec-3" id="projects">
+      <div class="container container2 mt-5">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-4 text-center text-light mt-5">About <mark>Me</mark></h1>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -146,6 +243,8 @@
       </div>
     </footer>
   </section>
+
+
 
 
 
